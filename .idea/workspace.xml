@@ -47,32 +47,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29daaf46-df61-4b7d-98b1-e0e6d4d0ad2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_remove_circle_black_46dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_remove_circle_outline_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_shortcut_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_shortcut_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/available_app_item_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/available_app_item_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shortcut_item_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shortcut_item_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shortcuts_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shortcuts_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +90,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="app_names" value="1" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="gradle" value="7" />
           <entry key="java" value="9" />
           <entry key="kt" value="69" />
@@ -122,7 +105,7 @@
           <entry key="Image" value="1" />
           <entry key="JAVA" value="9" />
           <entry key="Kotlin" value="69" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="42" />
         </counts>
@@ -130,7 +113,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="app_names" value="4" />
-          <entry key="gitignore" value="20" />
+          <entry key="gitignore" value="34" />
           <entry key="gradle" value="245" />
           <entry key="kt" value="13735" />
           <entry key="xml" value="3935" />
@@ -140,7 +123,7 @@
         <counts>
           <entry key="Groovy" value="245" />
           <entry key="Kotlin" value="13735" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="PLAIN_TEXT" value="38" />
           <entry key="XML" value="3935" />
         </counts>
       </usages-collector>
@@ -166,11 +149,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
+            <state relative-caret-position="390">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -2595,7 +2587,6 @@
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsViewModel.kt" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/sampledata/app_names" />
@@ -2621,6 +2612,7 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -2705,7 +2697,7 @@
     <property name="ExportApk.BuildVariants" value="debug" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="liveda&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt&#10;gradle&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/build.gradle&#10;addfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;addfragment&#9;null&#9;null&#10;app&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;main&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;appshortcut&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;dao&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt&#10;strings&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/values/strings.xml&#10;shortcuts&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt&#10;shortcutfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;shortcutadap&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt&#10;row&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_app_item_row.xml&#10;applicat&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;item&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;add&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;itemrow&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;appshort&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;applica&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;activit&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;adfrag&#9;null&#9;null&#10;addfr&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;livedata&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt&#10;available&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableapp&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/pojo/AvailableApp.kt&#10;application&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;availableapps&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;viewmodel&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionViewModel.kt&#10;fragment&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;adapter&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt&#10;availablappsfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableappsviewmodel&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionViewModel.kt&#10;MainAc&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;availableada&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt&#10;select&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableap&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_app_item_row.xml&#10;mainac&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;FRAGMENT&#9;null&#9;null&#10;availableapfr&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;adds&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;addsho&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;activi&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;availableappfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;itemro&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;addshortcut&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;frag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt&#10;activity&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/activity_main.xml&#10;Mainac&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;fragm&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcuts_fragment.xml&#10;hort&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml" />
+    <property name="SearchEverywhereHistoryKey" value="gitignor&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/.gitignore&#10;liveda&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt&#10;gradle&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/build.gradle&#10;addfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;addfragment&#9;null&#9;null&#10;app&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;main&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;appshortcut&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;dao&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt&#10;strings&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/values/strings.xml&#10;shortcuts&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt&#10;shortcutfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;shortcutadap&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt&#10;row&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_app_item_row.xml&#10;applicat&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;item&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;add&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;itemrow&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;appshort&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;applica&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;activit&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;adfrag&#9;null&#9;null&#10;addfr&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;livedata&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt&#10;available&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableapp&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/pojo/AvailableApp.kt&#10;application&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;availableapps&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;viewmodel&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionViewModel.kt&#10;fragment&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;adapter&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt&#10;availablappsfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableappsviewmodel&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionViewModel.kt&#10;MainAc&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;availableada&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt&#10;select&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableap&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_app_item_row.xml&#10;mainac&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;FRAGMENT&#9;null&#9;null&#10;availableapfr&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;adds&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;addsho&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;activi&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;availableappfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;itemro&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;addshortcut&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;frag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt&#10;activity&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/activity_main.xml&#10;Mainac&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;fragm&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcuts_fragment.xml" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="192.168.49.1:5555" />
     <property name="project.structure.last.edited" value="Dependencies" />
@@ -2964,13 +2956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -3170,8 +3155,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
+        <state relative-caret-position="390">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
         </state>
       </provider>
     </entry>
