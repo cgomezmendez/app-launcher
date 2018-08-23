@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Launcher</string>
+    <string name="add_shortcut_input_label_hint">Label</string>
+    <string name="add_shortcut_action_add">Add shortcut</string>
+    <string name="add_shortcut_title">Add application shortcut</string>
+    <string name="add_shortcut_input_app_name">Select a app</string>
+    <string name="available_apps_selection_loading_text">Loading available apps</string>
+    <string name="add_shortcut_error_duplicated">This app is already added</string>
+    <string name="shortcuts_action_remove">Remove</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="dialog_remove_shortcut_title">Remove shortcut</string>
+    <string name="dialog_remove_shortcut_message">Are you sure you want to remove this shortcut to %s?</string>
+    <string name="add_shortcut_input_label_helper">If leaved empty, Application name will be used</string>
 </resources>
