@@ -5,35 +5,48 @@ import android.content.Intent
 import android.content.pm.ResolveInfo
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import kotlinx.android.synthetic.main.activity_main.*
+import me.cristiangomez.launcher.data.pojo.AvailableApp
+import me.cristiangomez.launcher.view.addshortcut.AddShortcutFragment
+import me.cristiangomez.launcher.view.availableappsselection.AvailableAppsSelectionFragment
 import me.cristiangomez.launcher.view.shortcuts.ShortcutsFragment
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), ShortcutsFragment.ShortcutsFragmentListener, AvailableAppsSelectionFragment.AvailableAppSelectionFragmentListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        (applicationContext as LauncherApplication).database.appShortcutDao().getAll()
-                .observe(this, Observer {
-                    Log.d(MainActivity::class.java.canonicalName, it?.toString())
-                })
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                    .replace(R.id.fragmentContainerView, ShortcutsFragment.newInstance(),
+                            FRAGMENT_TAG_SHORTCUTS)
+                    .commit()
+        }
+    }
+
+    override fun onAddShortcut() {
+        var fragment: Fragment? = supportFragmentManager.findFragmentByTag(FRAGMENT_TAG_ADD_SHORTCUT)
+        if (fragment == null) {
+            fragment = AddShortcutFragment.newInstance()
+        }
         supportFragmentManager.beginTransaction()
-                .replace(R.id.fragmentContainerView, ShortcutsFragment.newInstance(),
-                        FRAGMENT_TAG_SHORTCUTS)
+                .replace(R.id.fragmentContainerView, fragment, FRAGMENT_TAG_ADD_SHORTCUT).addToBackStack(null)
                 .commit()
-//        val mainIntent = Intent(Intent.ACTION_MAIN, null);
-//        mainIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-//        val pkgAppsList = this.getPackageManager().queryIntentActivities( mainIntent, 0)
-//        pkgAppsList.forEach {
-//            Log.d(MainActivity::class.java.canonicalName, it.toString());
-////        }
-//        val intent = this.packageManager.getLaunchIntentForPackage("")
-//        startActivity(intent)
+    }
+
+    override fun onAppAvailableAppSelected(app: AvailableApp) {
+        var fragment: AddShortcutFragment? = supportFragmentManager.findFragmentByTag(FRAGMENT_TAG_ADD_SHORTCUT) as AddShortcutFragment?
+        if (fragment != null) {
+            fragment.onAppSelected(app)
+        }
     }
 
     companion object {
-        val FRAGMENT_TAG_SHORTCUTS = "SHORTCUTS"
+        const val FRAGMENT_TAG_SHORTCUTS = "SHORTCUTS"
+        const val FRAGMENT_TAG_ADD_SHORTCUT = "ADD_SHORTCUT"
     }
 }

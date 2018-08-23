@@ -47,18 +47,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29daaf46-df61-4b7d-98b1-e0e6d4d0ad2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/sampledata/shortcuts/alarm_mobile.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sampledata/shortcuts/i_bridge.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sampledata/shortcuts/ivms.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sampledata/shortcuts/lutron.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sampledata/shortcuts/nest.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_remove_circle_black_46dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_remove_circle_outline_black_24dp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_shortcut_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_shortcut_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/available_app_item_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/available_app_item_row.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shortcut_item_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shortcut_item_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shortcuts_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shortcuts_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,101 +106,71 @@
     <session id="-792141274">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="app_names" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="gradle" value="4" />
-          <entry key="java" value="8" />
-          <entry key="kt" value="26" />
+          <entry key="gradle" value="7" />
+          <entry key="java" value="9" />
+          <entry key="kt" value="69" />
           <entry key="properties" value="1" />
           <entry key="webp" value="1" />
-          <entry key="xml" value="10" />
+          <entry key="xml" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="4" />
+          <entry key="Groovy" value="7" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="8" />
-          <entry key="Kotlin" value="26" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="9" />
+          <entry key="Kotlin" value="69" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="10" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="app_names" value="4" />
           <entry key="gitignore" value="20" />
-          <entry key="gradle" value="205" />
-          <entry key="kt" value="4746" />
-          <entry key="xml" value="988" />
+          <entry key="gradle" value="245" />
+          <entry key="kt" value="13735" />
+          <entry key="xml" value="3935" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="205" />
-          <entry key="Kotlin" value="4746" />
-          <entry key="PLAIN_TEXT" value="20" />
-          <entry key="XML" value="988" />
+          <entry key="Groovy" value="245" />
+          <entry key="Kotlin" value="13735" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="XML" value="3935" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shortcut_item_row.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shortcuts_fragment.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding>
-                <element signature="e#50#612#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
             </state>
           </provider>
         </entry>
@@ -194,44 +178,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-              <folding>
-                <element signature="e#35#317#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="37" column="88" selection-start-line="37" selection-start-column="88" selection-end-line="37" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="11" column="87" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
-              <folding>
-                <element signature="e#50#392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsViewModel.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
-              <folding>
-                <element signature="e#50#305#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="435">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -242,8 +199,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -256,6 +213,15 @@
       <find>Data</find>
       <find>background</find>
       <find>com.segf4ult.test</find>
+      <find>constrainttop_totopof</find>
+      <find>listener.</find>
+      <find>actionSelectApp</find>
+      <find>actionselectapp</find>
+      <find>adap</find>
+      <find>drawable</find>
+      <find>addall</find>
+      <find>add</find>
+      <find>adapter</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -2621,34 +2587,48 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/util/SharedPreferencesManager.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/AppDatabase.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shorcuts/ShortcutsViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shorcuts/ShortcutsFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shorcuts/ShortcutsListAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_shorcut.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_shortcut.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/shortcuts_fragment.xml" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/sampledata/app_names" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AvailableAppsAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AvailableAppsSelectionFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/available_apps_selection_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/pojo/AvailableApp.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/shortcuts_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/available_app_item_row.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/shortcut_item_row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/add_shortcut_fragment.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
-    <option name="y" value="25" />
+    <option name="y" value="23" />
     <option name="width" value="1625" />
-    <option name="height" value="959" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -2659,25 +2639,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="app-launcher" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="app-launcher" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="sampledata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app-launcher" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="sampledata" type="462c0819:PsiDirectoryNode" />
-              <item name="shortcuts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app-launcher" type="1abcf292:AndroidViewProjectNode" />
@@ -2708,19 +2675,29 @@
             <path>
               <item name="app-launcher" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="me" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cristiangomez" type="462c0819:PsiDirectoryNode" />
+              <item name="launcher" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app-launcher" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="me" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cristiangomez" type="462c0819:PsiDirectoryNode" />
+              <item name="launcher" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="availableappsselection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2728,7 +2705,7 @@
     <property name="ExportApk.BuildVariants" value="debug" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="gitigno&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/.gitignore&#10;gitig&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/.gitignore&#10;style&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/values/styles.xml&#10;fragm&#9;null&#9;null&#10;fragment&#9;null&#9;null&#10;frag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcuts_fragment.xml&#10;adapter&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt&#10;application&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;viewmodel&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsViewModel.kt&#10;Mainac&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;activity&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/activity_main.xml&#10;mainac&#9;null&#9;null&#10;appshortcu&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;shortcut&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt&#10;gradle&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/build.gradle&#10;app&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;build&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/build.gradle&#10;appdatab&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/AppDatabase.kt&#10;applica&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;shortc&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt&#10;appsho&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/build/tmp/kapt3/stubs/debug/me/cristiangomez/launcher/data/dao/AppShortcutDao.java&#10;appsh&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt&#10;AppDatabase&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/AppDatabase.kt" />
+    <property name="SearchEverywhereHistoryKey" value="liveda&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt&#10;gradle&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/build.gradle&#10;addfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;addfragment&#9;null&#9;null&#10;app&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;main&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;appshortcut&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;dao&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt&#10;strings&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/values/strings.xml&#10;shortcuts&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt&#10;shortcutfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;shortcutadap&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt&#10;row&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_app_item_row.xml&#10;applicat&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;item&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;add&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;itemrow&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;appshort&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt&#10;applica&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;activit&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;adfrag&#9;null&#9;null&#10;addfr&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;livedata&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt&#10;available&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableapp&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/data/pojo/AvailableApp.kt&#10;application&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt&#10;availableapps&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;viewmodel&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionViewModel.kt&#10;fragment&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;adapter&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt&#10;availablappsfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableappsviewmodel&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionViewModel.kt&#10;MainAc&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;availableada&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt&#10;select&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt&#10;availableap&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_app_item_row.xml&#10;mainac&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;FRAGMENT&#9;null&#9;null&#10;availableapfr&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;adds&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/add_shortcut_fragment.xml&#10;addsho&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;activi&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;availableappfrag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/available_apps_selection_fragment.xml&#10;itemro&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml&#10;addshortcut&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt&#10;frag&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt&#10;activity&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/activity_main.xml&#10;Mainac&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt&#10;fragm&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcuts_fragment.xml&#10;hort&#9;FILE&#9;file:///Users/owner/Cristian/app-launcher/app/src/main/res/layout/shortcut_item_row.xml" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="192.168.49.1:5555" />
     <property name="project.structure.last.edited" value="Dependencies" />
@@ -2737,14 +2714,15 @@
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/sampledata/shortcuts" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="me.cristiangomez.launcher.view.availableappsselecction" />
       <recent name="me.cristiangomez.launcher.data.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/sampledata/shorcuts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/sampledata/shortcuts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2842,11 +2820,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="25" width="1625" height="959" extended-state="0" />
+    <frame x="55" y="23" width="1625" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28679723" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.28679723" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -2854,21 +2832,21 @@
       <window_info id="Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49838814" weight="0.32871974" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="1" sideWeight="0.49589387" visible="true" weight="0.3272101" />
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49967763" weight="0.3298731" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32871974" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4971573" weight="0.3272101" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5016119" side_tool="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5041061" side_tool="true" weight="0.3272101" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4992636" weight="0.32891566" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49709865" weight="0.31487888" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4965256" weight="0.31343284" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" weight="0.3298969" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32975364" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Preview" order="5" visible="true" weight="0.32912192" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32912192" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -2880,9 +2858,9 @@
       <window_info id="Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49838814" weight="0.32871974" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49838814" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49967763" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32871974" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5016119" side_tool="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4992636" weight="0.32891566" />
@@ -2891,10 +2869,10 @@
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" weight="0.3298969" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32975364" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Preview" order="5" weight="0.32912192" />
+      <window_info active="true" anchor="right" id="Preview" order="5" visible="true" weight="0.32912192" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2927,35 +2905,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/util/SharedPreferencesManager.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="90" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#44#215#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2996,92 +2957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="e#47#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
-          <folding>
-            <element signature="e#50#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="11" column="87" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
-          <folding>
-            <element signature="e#50#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="e#35#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="37" column="88" selection-start-line="37" selection-start-column="88" selection-end-line="37" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#50#612#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -3089,19 +2964,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AvailableAppsSelectionFragment.kt" />
+    <entry file="file://$PROJECT_DIR$/app/sampledata/app_names">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="89" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+          <folding>
+            <element signature="e#63#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/available_apps_selection_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/pojo/AvailableApp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shortcuts_fragment.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="315">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/me/cristiangomez/launcher/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="5019" column="28" selection-start-line="5019" selection-start-column="28" selection-end-line="5019" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shortcut_item_row.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/available_app_item_row.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/entity/AppShortcut.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/add_shortcut_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+          <folding>
+            <element signature="e#1548#1587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="46" lean-forward="true" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+          <folding>
+            <element signature="e#50#876#0" expanded="true" />
+            <element signature="e#2824#2856#1" expanded="true" />
+            <element signature="e#2972#2994#1" expanded="true" />
+            <element signature="e#3038#3075#1" expanded="true" />
+            <element signature="e#3245#3305#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/data/dao/AppShortcutDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="e#44#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/shortcuts/ShortcutsListAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="88" column="77" selection-start-line="88" selection-start-column="77" selection-end-line="88" selection-end-column="77" />
+          <folding>
+            <element signature="e#50#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/LauncherApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="112" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/addshortcut/AddShortcutFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsSelectionFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/cristiangomez/launcher/view/availableappsselection/AvailableAppsLiveData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
         </state>
       </provider>
     </entry>

@@ -10,6 +10,8 @@
     <FrameLayout
         android:id="@+id/fragmentContainerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:layout="@layout/shortcuts_fragment"
+        />
 
 </FrameLayout>
