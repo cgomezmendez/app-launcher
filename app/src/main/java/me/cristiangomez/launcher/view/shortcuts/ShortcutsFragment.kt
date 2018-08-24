@@ -23,6 +23,10 @@ import io.reactivex.internal.operators.completable.CompletableFromCallable
 import io.reactivex.schedulers.Schedulers
 import me.cristiangomez.launcher.LauncherApplication
 import me.cristiangomez.launcher.data.entity.AppShortcut
+import com.getkeepsafe.taptargetview.TapTargetView
+import android.graphics.Typeface
+import com.getkeepsafe.taptargetview.TapTarget
+import me.cristiangomez.launcher.data.TutorialNewShortcutStep
 
 
 class ShortcutsFragment : Fragment() {
@@ -74,8 +78,7 @@ class ShortcutsFragment : Fragment() {
                     .setCancelable(true)
                     .create()
                     .show()
-        }, onShortcutReorder = {
-            dropped, target ->
+        }, onShortcutReorder = { dropped, target ->
             reorderShortcuts(dropped, target)
         })
         shortcutsListView.adapter = adapter
@@ -85,10 +88,30 @@ class ShortcutsFragment : Fragment() {
         addShortcutAction.setOnClickListener {
             listener.onAddShortcut()
         }
+
+        val preferencesManager = (requireContext().applicationContext as LauncherApplication).sharedPreferencesManager
+
+        if (!preferencesManager.tutorialFinished && preferencesManager.tutorialAddNewShortcutCurrentStep == TutorialNewShortcutStep.CLICK_ADD_BUTTON) {
+            TapTargetView.showFor(requireActivity(),
+                    TapTarget.forView(addShortcutAction, "Add shortcuts", "You can add any app you have installed clicking here")
+                            .transparentTarget(true),
+                    object : TapTargetView.Listener() {          // The listener can listen for regular clicks, long clicks or cancels
+                        override fun onTargetClick(view: TapTargetView) {
+                            super.onTargetClick(view)      // This call is optional
+                            preferencesManager.tutorialAddNewShortcutCurrentStep = TutorialNewShortcutStep.WRITE_LABEL
+                            listener.onAddShortcut()
+                        }
+
+                        override fun onTargetCancel(view: TapTargetView?) {
+                            super.onTargetCancel(view)
+                            preferencesManager.tutorialFinished = true
+                        }
+                    })
+        }
     }
 
     private fun isPackageExisted(targetPackage: String): Boolean {
-        val pm = requireContext().getPackageManager()
+        val pm = requireContext().packageManager
         try {
             val info = pm.getPackageInfo(targetPackage, PackageManager.GET_META_DATA)
         } catch (e: PackageManager.NameNotFoundException) {
@@ -107,13 +130,12 @@ class ShortcutsFragment : Fragment() {
     }
 
     private fun reorderShortcuts(dropped: AppShortcut, target: AppShortcut) {
-        val droppedId = dropped.id!!
-        dropped.id = target.id
-        target.id = droppedId
+        val droppedId = dropped.order!!
+        dropped.order = target.order
+        target.order = droppedId
         CompletableFromCallable.create {
             val dao = (requireContext().applicationContext as LauncherApplication).database.appShortcutDao()
-            dao.deleteAll(dropped, target)
-            dao.insertAll(dropped, target)
+            dao.updateAll(dropped, target)
         }.subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe()

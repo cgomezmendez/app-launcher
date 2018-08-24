@@ -50,7 +50,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/add_shortcut_input_app_name"
         tools:icon="@sample/shortcuts"
-        style="@style/Widget.MaterialComponents.Button.TextButton.IconButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
         />
 
         <TextView

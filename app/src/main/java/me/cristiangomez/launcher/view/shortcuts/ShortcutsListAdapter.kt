@@ -9,7 +9,11 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.getkeepsafe.taptargetview.TapTarget
+import com.getkeepsafe.taptargetview.TapTargetView
+import me.cristiangomez.launcher.LauncherApplication
 import me.cristiangomez.launcher.R
+import me.cristiangomez.launcher.data.TutorialNewShortcutStep
 import me.cristiangomez.launcher.data.entity.AppShortcut
 import me.cristiangomez.launcher.databinding.ShortcutItemRowBinding
 
@@ -26,7 +30,8 @@ class ShortcutsListAdapter(private var shortcuts: List<AppShortcut> = mutableLis
         }
         val binding: ShortcutItemRowBinding = DataBindingUtil.inflate(layoutInflater!!,
                 R.layout.shortcut_item_row, parent, false)
-        return ShortcutViewHolder(binding, onShortcutSelected = onShortcutSelected, onShortcutRemove = onShortcutRemove, onShortcutReorder = onShortcutReorder)
+        return ShortcutViewHolder(binding, onShortcutSelected = onShortcutSelected,
+                onShortcutRemove = onShortcutRemove, onShortcutReorder = onShortcutReorder)
     }
 
     override fun getItemCount(): Int {
@@ -51,7 +56,7 @@ class ShortcutsListAdapter(private var shortcuts: List<AppShortcut> = mutableLis
                              private val onShortcutSelected: ((shortcut: AppShortcut) -> Unit)? = null,
                              private val onShortcutRemove: ((shortcut: AppShortcut) -> Unit)? = null,
                              private val onShortcutReorder: ((dropped: AppShortcut, target: AppShortcut) -> Unit)? = null) :
-            RecyclerView.ViewHolder(binding.root) {
+            RecyclerView.ViewHolder(binding.root), LayoutContainer {
         fun bind(shortcut: AppShortcut) {
             binding.shortcut = shortcut
             binding.root.tag = shortcut
@@ -81,6 +86,23 @@ class ShortcutsListAdapter(private var shortcuts: List<AppShortcut> = mutableLis
                     it.startDrag(null, View.DragShadowBuilder(it), it.tag, 0)
                 }
             }
+
+            val preferencesManager = (binding.root.context.applicationContext as LauncherApplication).sharedPreferencesManager
+            TapTargetView.showFor(binding.root.context,
+                    TapTarget.forView(actionremove, "Remove shortcuts", "You can add any app you have installed clicking here")
+                            .transparentTarget(true),
+                    object : TapTargetView.Listener() {          // The listener can listen for regular clicks, long clicks or cancels
+                        override fun onTargetClick(view: TapTargetView) {
+                            super.onTargetClick(view)      // This call is optional
+                            preferencesManager.tutorialAddNewShortcutCurrentStep = TutorialNewShortcutStep.WRITE_LABEL
+                            listener.onAddShortcut()
+                        }
+
+                        override fun onTargetCancel(view: TapTargetView?) {
+                            super.onTargetCancel(view)
+                            preferencesManager.tutorialFinished = true
+                        }
+                    })
         }
     }
 

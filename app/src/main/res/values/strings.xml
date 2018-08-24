@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Launcher</string>
+    <string name="app_name">Trust Automation</string>
     <string name="add_shortcut_input_label_hint">Label</string>
     <string name="add_shortcut_action_add">Add shortcut</string>
     <string name="add_shortcut_title">Add application shortcut</string>
