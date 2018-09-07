@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.getkeepsafe.taptargetview.TapTarget
 import com.getkeepsafe.taptargetview.TapTargetView
+import kotlinx.android.extensions.LayoutContainer
 import me.cristiangomez.launcher.LauncherApplication
 import me.cristiangomez.launcher.R
 import me.cristiangomez.launcher.data.TutorialNewShortcutStep
@@ -57,6 +58,9 @@ class ShortcutsListAdapter(private var shortcuts: List<AppShortcut> = mutableLis
                              private val onShortcutRemove: ((shortcut: AppShortcut) -> Unit)? = null,
                              private val onShortcutReorder: ((dropped: AppShortcut, target: AppShortcut) -> Unit)? = null) :
             RecyclerView.ViewHolder(binding.root), LayoutContainer {
+        override val containerView: View?
+            get() = binding.root
+
         fun bind(shortcut: AppShortcut) {
             binding.shortcut = shortcut
             binding.root.tag = shortcut
@@ -86,23 +90,6 @@ class ShortcutsListAdapter(private var shortcuts: List<AppShortcut> = mutableLis
                     it.startDrag(null, View.DragShadowBuilder(it), it.tag, 0)
                 }
             }
-
-            val preferencesManager = (binding.root.context.applicationContext as LauncherApplication).sharedPreferencesManager
-            TapTargetView.showFor(binding.root.context,
-                    TapTarget.forView(actionremove, "Remove shortcuts", "You can add any app you have installed clicking here")
-                            .transparentTarget(true),
-                    object : TapTargetView.Listener() {          // The listener can listen for regular clicks, long clicks or cancels
-                        override fun onTargetClick(view: TapTargetView) {
-                            super.onTargetClick(view)      // This call is optional
-                            preferencesManager.tutorialAddNewShortcutCurrentStep = TutorialNewShortcutStep.WRITE_LABEL
-                            listener.onAddShortcut()
-                        }
-
-                        override fun onTargetCancel(view: TapTargetView?) {
-                            super.onTargetCancel(view)
-                            preferencesManager.tutorialFinished = true
-                        }
-                    })
         }
     }
 

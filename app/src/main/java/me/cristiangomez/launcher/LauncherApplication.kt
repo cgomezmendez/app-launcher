@@ -7,6 +7,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import me.cristiangomez.launcher.data.AppDatabase
 import me.cristiangomez.launcher.data.entity.AppShortcut
+import me.cristiangomez.launcher.util.ImageUtil
 import me.cristiangomez.launcher.util.SharedPreferencesManager
 
 class LauncherApplication : Application() {
@@ -23,16 +24,16 @@ class LauncherApplication : Application() {
             Single.fromCallable {
                 val shortcuts = arrayOf(
                         AppShortcut(label = "Napco iBridge",
-                                iconPath = "android.resource://com.trustsecurityusa.trustautomation/" + R.drawable.i_bridge,
+                                iconPath = ImageUtil.getDrawablePath("i_bridge"),
                                 packageName = "com.napcosecurity.android.rcm.ui"),
                         AppShortcut(label = "nest",
-                                iconPath = "android.resource://com.trustsecurityusa.trustautomation/" + R.drawable.nest,
+                                iconPath = ImageUtil.getDrawablePath("nest"),
                                 packageName = "com.nest.android"),
                         AppShortcut(label = "idms4500",
-                                iconPath = "android.resource://com.trustsecurityusa.trustautomation/" + R.drawable.ivms,
+                                iconPath = ImageUtil.getDrawablePath("ivms"),
                                 packageName = "com.mcu.iVMS"),
                         AppShortcut(label = "alarm.com",
-                                iconPath = "android.resource://com.trustsecurityusa.trustautomation/" + R.drawable.alarm_mobile,
+                                iconPath = ImageUtil.getDrawablePath("alarm_mobile"),
                                 packageName = "com.alarm.alarmmobile.android"),
                         AppShortcut(label = "lutron",
                                 iconPath = "android.resource://com.trustsecurityusa.trustautomation/" + R.drawable.lutron,
