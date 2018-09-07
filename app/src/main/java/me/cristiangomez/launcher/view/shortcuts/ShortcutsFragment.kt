@@ -1,32 +1,30 @@
 package me.cristiangomez.launcher.view.shortcuts
 
 import android.content.Context
-import androidx.lifecycle.ViewModelProviders
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.graphics.drawable.Drawable
+import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.shortcuts_fragment.*
-
-import me.cristiangomez.launcher.R
-import android.content.pm.PackageManager
-import android.content.Intent
-import android.graphics.drawable.Drawable
-import android.net.Uri
-import androidx.appcompat.app.AlertDialog
+import com.getkeepsafe.taptargetview.TapTarget
+import com.getkeepsafe.taptargetview.TapTargetView
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.internal.operators.completable.CompletableFromCallable
 import io.reactivex.schedulers.Schedulers
+import kotlinx.android.synthetic.main.shortcuts_fragment.*
 import me.cristiangomez.launcher.LauncherApplication
-import me.cristiangomez.launcher.data.entity.AppShortcut
-import com.getkeepsafe.taptargetview.TapTargetView
-import android.graphics.Typeface
-import com.getkeepsafe.taptargetview.TapTarget
+import me.cristiangomez.launcher.R
 import me.cristiangomez.launcher.data.TutorialNewShortcutStep
+import me.cristiangomez.launcher.data.entity.AppShortcut
 
 
 class ShortcutsFragment : Fragment() {
@@ -53,12 +51,12 @@ class ShortcutsFragment : Fragment() {
         viewModel = ViewModelProviders.of(this).get(ShortcutsViewModel::class.java)
         shortcutsListView.layoutManager = GridLayoutManager(requireContext(), 2, RecyclerView.VERTICAL,
                 false)
-        val adapter = ShortcutsListAdapter(onShortcutSelected = {
+        val adapter = ShortcutsListAdapter(onItemSelected = {
             if (isPackageExisted(it.packageName)) {
                 val intent = requireContext().packageManager.getLaunchIntentForPackage(it.packageName)
                 startActivity(intent)
             } else {
-                val appPackageName = requireContext().getPackageName() // getPackageName() from Context or Activity object
+                val appPackageName = requireContext().packageName // getPackageName() from Context or Activity object
                 try {
                     startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=${it.packageName}")))
                 } catch (anfe: android.content.ActivityNotFoundException) {

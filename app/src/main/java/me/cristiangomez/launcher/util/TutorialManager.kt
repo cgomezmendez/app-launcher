@@ -4,7 +4,7 @@ class TutorialManager(val preferencesManager: SharedPreferencesManager) {
     fun getNextStep(currentScreen: String) {
         when (currentScreen) {
             SCREEN_SHORTCUTS -> {
-                
+
             }
         }
     }

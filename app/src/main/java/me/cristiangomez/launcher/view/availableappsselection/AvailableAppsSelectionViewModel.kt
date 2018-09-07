@@ -3,9 +3,7 @@ package me.cristiangomez.launcher.view.availableappsselection
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MediatorLiveData
-import androidx.lifecycle.Observer
 import me.cristiangomez.launcher.LauncherApplication
-import me.cristiangomez.launcher.data.entity.AppShortcut
 import me.cristiangomez.launcher.data.pojo.AvailableApp
 
 class AvailableAppsSelectionViewModel(application: Application) : AndroidViewModel(application) {

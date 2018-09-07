@@ -1,15 +1,8 @@
 package me.cristiangomez.launcher
 
-import android.content.Context
-import android.content.Intent
-import android.content.pm.ResolveInfo
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import kotlinx.android.synthetic.main.activity_main.*
 import me.cristiangomez.launcher.data.pojo.AvailableApp
 import me.cristiangomez.launcher.view.addshortcut.AddShortcutFragment
 import me.cristiangomez.launcher.view.availableappsselection.AvailableAppsSelectionFragment

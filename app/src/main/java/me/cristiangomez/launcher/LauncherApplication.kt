@@ -40,7 +40,7 @@ class LauncherApplication : Application() {
                                 packageName = "com.lutron.lutronhomeplus")
                 )
                 database.appShortcutDao().insertAll(*shortcuts)
-             }.subscribeOn(Schedulers.io())
+            }.subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread()).subscribe()
         }
     }

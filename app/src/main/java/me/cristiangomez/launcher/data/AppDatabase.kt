@@ -6,7 +6,7 @@ import me.cristiangomez.launcher.data.dao.AppShortcutDao
 import me.cristiangomez.launcher.data.entity.AppShortcut
 
 @Database(entities = [(AppShortcut::class)], version = 1)
-abstract class AppDatabase: RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
     abstract fun appShortcutDao(): AppShortcutDao
 
 }

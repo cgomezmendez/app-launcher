@@ -1,42 +1,28 @@
 package me.cristiangomez.launcher.view.availableappsselection
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
-import androidx.recyclerview.widget.RecyclerView
+import androidx.annotation.LayoutRes
 import me.cristiangomez.launcher.R
-import me.cristiangomez.launcher.data.entity.AppShortcut
 import me.cristiangomez.launcher.data.pojo.AvailableApp
 import me.cristiangomez.launcher.databinding.AvailableAppItemRowBinding
+import me.cristiangomez.launcher.view.AbstractRecyclerAdapter
 
-class AvailableAppsAdapter(private val availableApps: List<AvailableApp>,
-                           private val onAppSelected: ((app: AvailableApp) -> Unit)? = null) : RecyclerView.Adapter<AvailableAppsAdapter.AvailableAppsViewHolder>() {
-    var layoutInflater: LayoutInflater? = null
+class AvailableAppsAdapter(items: List<AvailableApp>,
+                           onItemSelected: (((item: AvailableApp) -> Unit)?) = null) :
+        AbstractRecyclerAdapter<AvailableApp, AvailableAppItemRowBinding>(items,
+                onItemSelected) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AvailableAppsViewHolder {
-        if (layoutInflater == null) {
-            layoutInflater = LayoutInflater.from(parent.context)
-        }
-        val binding = DataBindingUtil.inflate<AvailableAppItemRowBinding>(layoutInflater!!,
-                R.layout.available_app_item_row, parent, false)
-        return AvailableAppsViewHolder(binding, onAppSelected)
+    @LayoutRes
+    override fun getLayoutId(): Int {
+        return R.layout.available_app_item_row
     }
 
-    override fun getItemCount(): Int {
-        return availableApps.size
+    override fun getViewHolder(binding: AvailableAppItemRowBinding): BaseViewHolder<AvailableApp, AvailableAppItemRowBinding> {
+        return AvailableAppsViewHolder(binding, onItemSelected)
     }
 
-    override fun onBindViewHolder(holder: AvailableAppsViewHolder, position: Int) {
-        holder.bind(availableApps[position])
-    }
-
-    class AvailableAppsViewHolder(private val binding: AvailableAppItemRowBinding,
-                                  private val onAppSelected: ((app: AvailableApp) -> Unit)? = null) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(app: AvailableApp) {
-            binding.app = app
-            binding.root.setOnClickListener {
-                onAppSelected?.invoke(app)
-            }
-        }
+    class AvailableAppsViewHolder(binding: AvailableAppItemRowBinding,
+                                  onItemSelected: (((item: AvailableApp) -> Unit)?) = null) :
+            BaseViewHolder<AvailableApp, AvailableAppItemRowBinding>(binding,
+                    onItemSelected) {
     }
 }

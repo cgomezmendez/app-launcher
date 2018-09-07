@@ -5,7 +5,6 @@ import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.os.AsyncTask
 import androidx.lifecycle.LiveData
-import me.cristiangomez.launcher.R
 import me.cristiangomez.launcher.data.pojo.AvailableApp
 
 class AvailableAppsLiveData(val context: Context) : LiveData<List<AvailableApp>>() {

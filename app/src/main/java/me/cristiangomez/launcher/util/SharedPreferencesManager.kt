@@ -16,27 +16,27 @@ class SharedPreferencesManager(context: Context) {
         }
 
     var tutorialAddNewShortcutCurrentStep: TutorialNewShortcutStep?
-    get() {
-        return TutorialNewShortcutStep.valueOf(
-                sharedPreferences.getString(PREF_TUTORIAL_ADD_NEW_SHORTCUT_CURRENT_STEP,
-                        TutorialNewShortcutStep.CLICK_ADD_BUTTON.name)!!
-        )
-    }
-    set(value) {
-        sharedPreferences.edit()
-                .putString(PREF_TUTORIAL_ADD_NEW_SHORTCUT_CURRENT_STEP, value?.name)
-                .apply()
-    }
+        get() {
+            return TutorialNewShortcutStep.valueOf(
+                    sharedPreferences.getString(PREF_TUTORIAL_ADD_NEW_SHORTCUT_CURRENT_STEP,
+                            TutorialNewShortcutStep.CLICK_ADD_BUTTON.name)!!
+            )
+        }
+        set(value) {
+            sharedPreferences.edit()
+                    .putString(PREF_TUTORIAL_ADD_NEW_SHORTCUT_CURRENT_STEP, value?.name)
+                    .apply()
+        }
 
     var tutorialFinished: Boolean
-    get() {
-        return sharedPreferences.getBoolean(PREF_TUTORIAL_FINISHED, false)
-    }
-    set(value) {
-        sharedPreferences.edit()
-                .putBoolean(PREF_TUTORIAL_FINISHED, value)
-                .apply()
-    }
+        get() {
+            return sharedPreferences.getBoolean(PREF_TUTORIAL_FINISHED, false)
+        }
+        set(value) {
+            sharedPreferences.edit()
+                    .putBoolean(PREF_TUTORIAL_FINISHED, value)
+                    .apply()
+        }
 
     companion object {
         const val SHARED_PREFERENCES_NAME = "me.cristiangomez.launcher"

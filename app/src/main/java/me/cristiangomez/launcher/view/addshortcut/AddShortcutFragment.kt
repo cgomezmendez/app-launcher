@@ -3,36 +3,29 @@ package me.cristiangomez.launcher.view.addshortcut
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.net.Uri
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import androidx.fragment.app.DialogFragment
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProviders
 import com.getkeepsafe.taptargetview.TapTarget
-import com.getkeepsafe.taptargetview.TapTargetSequence
 import com.getkeepsafe.taptargetview.TapTargetView
-import io.reactivex.Completable
-import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.internal.operators.single.SingleFromCallable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.add_shortcut_fragment.*
-import kotlinx.android.synthetic.main.shortcuts_fragment.*
 import me.cristiangomez.launcher.LauncherApplication
-
 import me.cristiangomez.launcher.R
+import me.cristiangomez.launcher.data.TutorialNewShortcutStep
 import me.cristiangomez.launcher.data.entity.AppShortcut
 import me.cristiangomez.launcher.data.pojo.AvailableApp
-import me.cristiangomez.launcher.view.availableappsselection.AvailableAppsSelectionFragment
-import android.view.inputmethod.InputMethodManager.SHOW_IMPLICIT
-import androidx.core.content.ContextCompat.getSystemService
-import me.cristiangomez.launcher.data.TutorialNewShortcutStep
 import me.cristiangomez.launcher.util.SharedPreferencesManager
+import me.cristiangomez.launcher.view.availableappsselection.AvailableAppsSelectionFragment
 
 
 class AddShortcutFragment : Fragment() {
