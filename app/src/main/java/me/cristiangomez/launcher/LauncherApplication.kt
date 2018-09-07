@@ -36,7 +36,7 @@ class LauncherApplication : Application() {
                                 iconPath = ImageUtil.getDrawablePath("alarm_mobile"),
                                 packageName = "com.alarm.alarmmobile.android"),
                         AppShortcut(label = "lutron",
-                                iconPath = "android.resource://com.trustsecurityusa.trustautomation/" + R.drawable.lutron,
+                                iconPath = ImageUtil.getDrawablePath("lutron"),
                                 packageName = "com.lutron.lutronhomeplus")
                 )
                 database.appShortcutDao().insertAll(*shortcuts)

@@ -4,7 +4,7 @@ import me.cristiangomez.launcher.BuildConfig
 
 object ImageUtil {
     fun getDrawablePath(drawableName: String): String {
-        return "android.resource://${BuildConfig.APPLICATION_ID}/$drawableName"
+        return "android.resource://${BuildConfig.APPLICATION_ID}/drawable/$drawableName"
 
     }
 }
