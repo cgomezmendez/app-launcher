@@ -6,9 +6,7 @@ import android.content.pm.PackageManager
 import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -35,6 +33,11 @@ class ShortcutsFragment : Fragment() {
 
     private lateinit var viewModel: ShortcutsViewModel
     private lateinit var listener: ShortcutsFragmentListener
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setHasOptionsMenu(true)
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -106,6 +109,11 @@ class ShortcutsFragment : Fragment() {
                         }
                     })
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
+        inflater!!.inflate(R.menu.shorcuts_menu, menu)
+        super.onCreateOptionsMenu(menu, inflater)
     }
 
     private fun isPackageExisted(targetPackage: String): Boolean {

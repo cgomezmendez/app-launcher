@@ -1,9 +1,12 @@
 package me.cristiangomez.launcher
 
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.activity_main.*
 import me.cristiangomez.launcher.data.pojo.AvailableApp
+import me.cristiangomez.launcher.view.about.AboutFragment
 import me.cristiangomez.launcher.view.addshortcut.AddShortcutFragment
 import me.cristiangomez.launcher.view.availableappsselection.AvailableAppsSelectionFragment
 import me.cristiangomez.launcher.view.shortcuts.ShortcutsFragment
@@ -19,27 +22,68 @@ class MainActivity : AppCompatActivity(), ShortcutsFragment.ShortcutsFragmentLis
                             FRAGMENT_TAG_SHORTCUTS)
                     .commit()
         }
+        setSupportActionBar(appBar)
+        supportFragmentManager.addOnBackStackChangedListener {
+            supportActionBar!!.setDisplayHomeAsUpEnabled(shouldDisplayHomeUp())
+        }
     }
 
-    override fun onAddShortcut() {
-        var fragment: Fragment? = supportFragmentManager.findFragmentByTag(FRAGMENT_TAG_ADD_SHORTCUT)
-        if (fragment == null) {
-            fragment = AddShortcutFragment.newInstance()
+    override fun onResume() {
+        super.onResume()
+        supportActionBar!!.setDisplayHomeAsUpEnabled(shouldDisplayHomeUp())
+    }
+
+
+    private fun shouldDisplayHomeUp(): Boolean {
+        return supportFragmentManager.backStackEntryCount > 0
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        supportFragmentManager.popBackStack()
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        when (item!!.itemId) {
+            R.id.action_about -> {
+                switchFragment(FRAGMENT_TAG_ABOUT)
+            }
         }
+        return super.onOptionsItemSelected(item)
+    }
+
+    private fun switchFragment(fragmentTag: String) {
         supportFragmentManager.beginTransaction()
-                .replace(R.id.fragmentContainerView, fragment, FRAGMENT_TAG_ADD_SHORTCUT).addToBackStack(null)
+                .replace(R.id.fragmentContainerView, getFragment(fragmentTag)!!, fragmentTag)
+                .addToBackStack(null)
                 .commit()
     }
 
-    override fun onAppAvailableAppSelected(app: AvailableApp) {
-        var fragment: AddShortcutFragment? = supportFragmentManager.findFragmentByTag(FRAGMENT_TAG_ADD_SHORTCUT) as AddShortcutFragment?
-        if (fragment != null) {
-            fragment.onAppSelected(app)
+    private fun getFragment(fragmentTag: String): Fragment? {
+        return supportFragmentManager.findFragmentByTag(fragmentTag) ?: return when (fragmentTag) {
+            FRAGMENT_TAG_ABOUT ->
+                AboutFragment.newInstance()
+            FRAGMENT_TAG_ADD_SHORTCUT ->
+                AddShortcutFragment.newInstance()
+            FRAGMENT_TAG_SHORTCUTS ->
+                ShortcutsFragment.newInstance()
+            else -> {
+                null
+            }
         }
+    }
+
+    override fun onAddShortcut() {
+        switchFragment(FRAGMENT_TAG_ADD_SHORTCUT)
+    }
+
+    override fun onAppAvailableAppSelected(app: AvailableApp) {
+        (supportFragmentManager.findFragmentByTag(FRAGMENT_TAG_ADD_SHORTCUT) as AddShortcutFragment?)?.onAppSelected(app)
     }
 
     companion object {
         const val FRAGMENT_TAG_SHORTCUTS = "SHORTCUTS"
         const val FRAGMENT_TAG_ADD_SHORTCUT = "ADD_SHORTCUT"
+        const val FRAGMENT_TAG_ABOUT = "ABOUT"
     }
 }
