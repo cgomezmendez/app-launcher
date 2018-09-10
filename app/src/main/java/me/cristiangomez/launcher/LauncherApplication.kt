@@ -7,6 +7,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import me.cristiangomez.launcher.data.AppDatabase
 import me.cristiangomez.launcher.data.entity.AppShortcut
+import me.cristiangomez.launcher.network.ContactService
 import me.cristiangomez.launcher.util.ImageUtil
 import me.cristiangomez.launcher.util.SharedPreferencesManager
 

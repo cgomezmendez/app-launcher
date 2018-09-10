@@ -9,6 +9,7 @@ import me.cristiangomez.launcher.data.pojo.AvailableApp
 import me.cristiangomez.launcher.view.about.AboutFragment
 import me.cristiangomez.launcher.view.addshortcut.AddShortcutFragment
 import me.cristiangomez.launcher.view.availableappsselection.AvailableAppsSelectionFragment
+import me.cristiangomez.launcher.view.contact.ContactFragment
 import me.cristiangomez.launcher.view.shortcuts.ShortcutsFragment
 
 class MainActivity : AppCompatActivity(), ShortcutsFragment.ShortcutsFragmentListener, AvailableAppsSelectionFragment.AvailableAppSelectionFragmentListener {
@@ -48,6 +49,9 @@ class MainActivity : AppCompatActivity(), ShortcutsFragment.ShortcutsFragmentLis
             R.id.action_about -> {
                 switchFragment(FRAGMENT_TAG_ABOUT)
             }
+            R.id.action_contact -> {
+                switchFragment(FRAGMENT_TAG_CONTACT)
+            }
         }
         return super.onOptionsItemSelected(item)
     }
@@ -67,6 +71,8 @@ class MainActivity : AppCompatActivity(), ShortcutsFragment.ShortcutsFragmentLis
                 AddShortcutFragment.newInstance()
             FRAGMENT_TAG_SHORTCUTS ->
                 ShortcutsFragment.newInstance()
+            FRAGMENT_TAG_CONTACT ->
+                ContactFragment.newInstance()
             else -> {
                 null
             }
@@ -85,5 +91,6 @@ class MainActivity : AppCompatActivity(), ShortcutsFragment.ShortcutsFragmentLis
         const val FRAGMENT_TAG_SHORTCUTS = "SHORTCUTS"
         const val FRAGMENT_TAG_ADD_SHORTCUT = "ADD_SHORTCUT"
         const val FRAGMENT_TAG_ABOUT = "ABOUT"
+        const val FRAGMENT_TAG_CONTACT = "CONTACT"
     }
 }
